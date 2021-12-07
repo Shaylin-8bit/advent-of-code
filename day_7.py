@@ -26,14 +26,13 @@ def process_one(crabs):
 
 def process_two(crabs):
     l = max(crabs)
-    r =  range(min(crabs), l+1)
     fuel = 0
     for i in crabs:
         a = factorial_sum(abs(-i))
         b = factorial_sum(abs(i-l))
         fuel += a if a > b else b
     index = -1
-    for i in r:
+    for i in range(min(crabs), l+1):
         tmp = 0
         for j in crabs:
             tmp += factorial_sum(abs(j-i))
