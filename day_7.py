@@ -42,9 +42,5 @@ def process_two(crabs):
             index = i
     return (fuel, index)
 
-print(process_one(parse())) # 349769   @ 331
-print(process_two(parse())) # 99540554 @ 479
-
-test = [16, 1, 2, 0, 4, 2, 7, 1, 2, 14]
-print(process_one(test)) # 37  @ 2
-print(process_two(test)) # 168 @ 5
+print(process_one(parse()))
+print(process_two(parse()))
