@@ -65,3 +65,6 @@ def process_two(lst):
                     break
         result += int(temp)
     return result
+
+print(process_one(parse()))
+print(process_two(parse()))
