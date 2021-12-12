@@ -28,5 +28,5 @@ class Cave():
                 result += self.map_cave(False, i, nogo)
         return result
 
-print(Cave(parse()).map_cave()) # 3713
-print(Cave(parse()).map_cave(True)) # 91292
+print(Cave(parse()).map_cave())
+print(Cave(parse()).map_cave(True))
