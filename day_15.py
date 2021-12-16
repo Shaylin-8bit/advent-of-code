@@ -151,5 +151,3 @@ end = datetime.now()
 print(f"Started at: {start}")
 print(f"Ended at:   {end}")
 print(b[0])
-
-# test part 2 315
